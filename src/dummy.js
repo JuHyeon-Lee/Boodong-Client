@@ -1,4 +1,4 @@
-export const sales = [
+const sales = [
     {
         "saleId": 1,
         "registeredDate": "2018-03-01",
@@ -52,3 +52,5 @@ export const sales = [
         "rent": 28
     },
 ];
+
+export default sales;
