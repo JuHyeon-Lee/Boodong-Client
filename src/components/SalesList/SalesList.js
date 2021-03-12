@@ -26,8 +26,8 @@ const SalesList = () => {
             <SalesListContext.Provider value={{selectedType, selectType, selectedStatus, selectStatus}}>
                 <SalesListTab/>
                 <SalesListNav/>
-                {/* <SalesListItem itemType='filter'/>
-                {sales.map(element => element.type===selectedType && element.status===selectedStatus && <SalesListItem itemType='item' data={element}/>)} */}
+                <SalesListItem itemType='filter'/>
+                {sales.map(element => element.type===selectedType && element.saleStatus===selectedStatus && <SalesListItem key={element.saleId} sale={element} itemType='item'/>)}
             </SalesListContext.Provider>
         </style.SalesList>
     );
