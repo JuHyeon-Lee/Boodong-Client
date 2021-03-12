@@ -7,7 +7,6 @@ style.Header = styled.header`
     display: flex;
     padding: 10px;
     background-color: #f1f1f1;
-    margin-bottom: 20px;
 `;
 
 style.User = styled.label`
