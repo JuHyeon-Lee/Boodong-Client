@@ -9,6 +9,8 @@ style.SalesListItem = styled.div`
     &:nth-child(3){
         margin-top: 10px;
         border-top: 1px solid rgb(180, 180, 180);
+        background: #f1f1f1;
+        font-weight: bold;
     }
 `;
 
