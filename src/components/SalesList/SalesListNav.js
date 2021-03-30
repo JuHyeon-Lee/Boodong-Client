@@ -11,12 +11,17 @@ style.SalesListNav = styled.div`
 style.SelectedNav = styled.label`
     display: inline-block;
     font-weight: bold;
-    margin-right: 5px;
+    margin-right: 2px;
+    padding: 4px;
+    border-radius: 4px;
+    background: #B0B0B0;
 `;
 
 style.UnselectedNav = styled.label`
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 2px;
+    padding: 4px;
+    border-radius: 4px;
 `;
 
 const SalesListNav = () => {
