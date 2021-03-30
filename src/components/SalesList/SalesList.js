@@ -10,10 +10,7 @@ import sales from '../../dummy';
 const style = {};
 
 style.SalesList = styled.div`
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid rgb(180, 180, 180);
-    border-radius: 6px;
+    padding: 15px;
 `;
 
 const SalesList = () => {
